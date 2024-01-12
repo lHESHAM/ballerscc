@@ -1,0 +1,105 @@
+.main-ballers {
+    background-color: #BDE4F4 ;
+    width: 100%;
+    height: 32vh;
+}
+
+.animation-ballers {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 9rem 0 -4rem 0;
+  font-size: 10rem; /* Default size for large screens */
+  font-weight: 900;
+  color: transparent;
+  /* background-image: url('https://media.giphy.com/media/iV9Wk5TPNNbCU/giphy.gif'); */
+  background-image: url('https://media.giphy.com/media/xT1XGCwOkQ2Ua5Zv5C/giphy.gif');
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+  overflow: hidden;
+  height: 260px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .animation-ballers {
+      font-size: 7.5rem;
+      margin: 3rem 0 -3rem 0;
+  }
+  .main-ballers {
+    height: 25vh;
+    max-width: 100%;
+}
+}
+@media (max-width: 671px) {
+  .animation-ballers {
+      font-size: 6.5rem;
+      margin: 3rem 1rem 3rem 1rem;
+  }
+  .main-ballers {
+    height: 23vh;
+    max-width: 100%;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 572px) {
+  .animation-ballers {
+    font-size: 5rem;
+}
+.main-ballers {
+  height: 20vh;
+  max-width: 100%;
+}
+}
+@media (max-width: 460px) {
+  .animation-ballers {
+    font-size: 4rem;
+}
+.main-ballers {
+  height: 14vh;
+  max-width: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .animation-ballers {
+    font-size: 3.5rem;
+}
+.main-ballers {
+  height: 12vh;
+  max-width: 100%;
+  }
+}
+
+
+
+.image-container {
+    text-align: center;
+  }
+  
+  .animated-image {
+    width: 100px; /* Set your desired image width */
+    height: auto; /* Maintain aspect ratio */
+    animation: fadeIn 2s ease-in-out; /* Adjust the animation properties as needed */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100px);
+      -moz-transform: translateY(100px);
+      -ms-transform: translateY(100px);
+      -o-transform: translateY(100px);
+      transform: translateY(100px);
+}
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  /* ###################################  */
+
+  

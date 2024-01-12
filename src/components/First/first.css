@@ -1,0 +1,165 @@
+.first-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.first-card {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    margin: 30px;
+    background: #ff0000;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    box-shadow: 0 15px 0 #636d91, inset 0 -12px 0 #e07c5e , 0 30px 0 #c3e8f7;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.first-card::before {
+    content: "";
+    position: absolute;
+    top: -140;
+    left: -40%;
+    width: 100%;
+    height: 120%;
+    background: linear-gradient(150deg,transparent,#F1F8FD);
+    /*-webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    transform: rotate(35deg);
+    */pointer-events: none;
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+}
+.first-card:nth-child(1) {
+    background: linear-gradient(to bottom, #BDE4F4 , #546f97);
+}
+.first-card:nth-child(2) {
+    background: linear-gradient(to bottom, #404969 , #546f97);
+}
+.first-card:nth-child(3) {
+    background: linear-gradient(to bottom, #DC552C , #546f97);
+}
+.first-icon {
+    position: relative;
+    width: 140px;
+    height: 120px;
+    background-color: #F1F8FD;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0 9px 0 #e07c5e, inset 0 -10px 0 #BDE4F4 , 0 -8px 0 #636d91;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+.first-icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-top-right-radius: 50px;
+    box-shadow: 15px -15px  0 15px #F1F8FD;
+}
+.first-icon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-top-left-radius: 50px;
+    box-shadow: -15px -15px  0 15px #F1F8FD;
+}
+/* 
+.first-icon .test  {
+    color: #636d91;
+    position: relative;
+    font-size: 6rem;
+} */
+
+.first-content {
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    padding-top: 140px;
+    text-align: center;
+}
+.first-content h2 {
+    font-size: 1.75em;
+    color: #BDE4F4;
+    margin-bottom: 10px;
+}
+.first-content p {
+    color: #BDE4F4;
+    line-height: 1.5em;
+}
+
+/* 0000000000000000000000000 */
+
+
+.button-81 {
+  background-color: #F1F8FD;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 470px) {
+    .first-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .first-card {
+        width: 290px;
+        height: 350px;
+    }
+}

@@ -1,0 +1,12 @@
+.container-scan {
+    margin-top: 5rem;
+}
+.sacns {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    cursor: wait;
+}

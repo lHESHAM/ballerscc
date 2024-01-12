@@ -1,0 +1,141 @@
+
+{
+    
+    "Home-Nav" : " Home ",
+    "About-Nav" : "About",
+    "Team-Nav" : "Team",
+    "Join-Nav" : "Join Us",
+    "Login-Nav" : "Login",
+    "Lang-Nav" : "Languages",
+
+
+    "FreeSessionFixed" : " Get first session for free! ",
+ 
+ "services": "SERVICES",
+  "tagline": "If you do it right, it will last forever",
+  "DigitalTitle": "Individual Training",
+  "DigitalContent": "Personalized sessions with specialized coaches to develop strengths and enhance individual skills.",
+  "ReturnsTitle": "Easy Registration",
+  "ReturnsContent": "Secure your spot hassle-free with easy mobile registration on your phone or laptop, kickstarting your journey with us",
+  "CustomerTitle": "Sports Nutrition",
+  "CustomerContent": "Specialized nutrition consultations to provide suitable dietary plans for performance enhancement and recovery.",
+  "deliverTitle": "Group Training",
+  "deliverContent": "Small group training sessions to promote interaction and harmony among players.",
+  "PaymentTitle": "Tactics & Game Strategy",
+  "PaymentContent": "Special sessions to understand the depths of the game and develop tactical vision and strategy. Leagues and Tournaments.",
+  "StoresTitle": "Personalized Monitoring",
+  "StoresContent": "Regular assessments to track player development and provide individual guidance for improvement.",
+  "After-services" : "We focus on delivering a comprehensive experience for our players, not just on the court but in all aspects of their sports and personal lives. Join us today and be part of your journey towards excellence in basketball!",
+
+  "BallersT-Title" : "Ballers Basketball Coaches",
+  "BallersT-Desc" : "Crafting the Minds of Ballers on the Court",
+  "BallersT-coach1" : "Caoch Amro Al-Wageei",
+  "BallersT-coach1-desc" : "CEO & Founder",
+  "BallersT-coach2" : "Caoch Ahmad Amin",
+  "BallersT-coach2-desc" : "CEO & Founder",
+
+  "BallersT-Title1" : "Ballers technical team",
+  "BallersT-Desc1" : "Pushing our hoops brand ahead",
+  "BallersT-tech1" : "Amro Al-Wageei",
+  "BallersT-tech1-desc" : "Technical Team Leader",
+  "BallersT-tech2" : "Hussein Injass",
+  "BallersT-tech2-desc" : "Full Satck Web Developer",
+  "BallersT-tech3" : "Shahed Adnan",
+  "BallersT-tech3-desc" : "UI / UX Desgnier",
+  "BallersT-tech4" : "Laith Abbas",
+  "BallersT-tech4-desc" : "Backend Web Developer",
+
+  "BallersT-Title2" : "Fuel Your Game with Our Nutrition Experts",
+  "BallersT-Desc2" : "Optimize play with expert nutrition",
+  "BallersT-nut1" : "Dr. Rania Anabieh ",
+  "BallersT-nut1-desc" : "Sport & Nutrition Coach",
+
+
+  "gallery" : "  Gallery ",
+  "tagline-gallery" : "“Champions Ballers , we are proud of them",
+  "contactus" : "  Contact Us ",
+  "tagline-contactus" : "We appreciate your trust in us and look forward to serving you with pride  ",
+
+  "telephone-first" : "Telephone",
+  "telephone-first-content1" : "+962 799379762",
+  "telephone-first-content2" : "+962 798257370",
+  "location-first" : "Location",
+  "location-first-content" : "Aqaba , Jordan",
+  "join-first" : "Join Nows",
+  "join-first-content" : "Click Here",
+
+
+  "FormT-Title1" : "Get in touch with us",
+  "FormT-desc1" : "We are always here to help you",
+  "FormT-location1" : "8th residential ",
+  "FormT-location2" : "DE 19901 Aqaba County, Jordan",
+  "FormT-email" : "hello@ballers.com",
+  "FormT-privacy" : "You agree to our friendly privacy policy.",
+
+
+  "Ballers-Title" : "Ballers Basketball Academy",
+  "Ballers-Title1" : "Welcome to Ballers Basketball Academy,",
+  "Ballers-desc1" : "He Brings a wealth of experience and expertise in basketball coaching, ensuring top-notch training at Ballers Basketball Academy.",
+  "Ballers-desc2" : " the premier destination in Aqaba for basketball enthusiasts! We offer a comprehensive experience focused on enhancing player skills, emphasizing advanced technical training, and specialized nutrition programs. Our team of highly experienced coaches ensures maximum development for each player.",
+  "Ballers-desc3" : "  Reach out now to secure your spot and begin your basketball journey with Ballers Basketball Academy in Aqaba. Elevate your skills and passion for the game under expert guidance, joining a community dedicated to your success.",
+  "Ballers-Team-Button" : " Our Team",
+  "Ballers-Join-Button" : " Join Us",
+
+
+  "slider-title" : "Gallery",
+  "slider-desc1" : "Explore the Next Level of Basketball Training ",
+  "slider-desc2" : "at Ballers Basketball Academy ",
+  "slider-desc3" : "Affordable and Effective Solutions for All Your Basketball Needs.",
+
+  "FAQ.TITLE" : "FAQ?",
+  "faq.question1" : "Can I make payments in cash for academy sessions?",
+  "faq.answer1" : "Yes, we accept cash payments for academy sessions. Please visit our academy facility during our designated hours to make your payment to our accountant person. Be sure to obtain a receipt for your records.",
+  "faq.question2" : "Can I choose a specific expert coach for ongoing sessions?",
+  "faq.answer2" : "Absolutely! We offer the flexibility for you to select a preferred coach for ongoing sessions, allowing for personalized guidance and consistent coaching support.",
+  "faq.question3" : "How can I access the nutrition resources provided by the academy?",
+  "faq.answer3" : "Experience a special offer exclusively for Ballers Basketball Academy players, featuring personalized attention and special care, crafted by our dedicated team led by Dr. Rania Anab.",
+  "faq.question4" : "What services does Ballers Basketball Academy provide for players?",
+  "faq.answer4" : "Ballers Basketball Academy offers a comprehensive range of services tailored for players, including professional coaching sessions, personalized skill development programs, access to state-of-the-art facilities, fitness and conditioning programs, nutritional guidance led by Dr. Rania Anab, and exclusive opportunities for competitive play and tournaments. Our holistic approach aims to nurture the talents of each player and foster their growth both on and off the court.",
+
+
+  "Footer.Copy" : " Copyright © 2024 Ballerss. All Rights Reserved.",
+  "Footer.location1" : "Aqaba - Jordan",
+  "Footer.location2" : "8th residental, Jordan",
+
+  "Footer.Box1.link1" : "Ballers",
+  "Footer.Box1.link2" : "Work at Ballers",
+  "Footer.Box1.link3" : "Collaborate with us",
+  "Footer.Box1.link4" : "Press",
+  "Footer.Box1.link5" : "Privacy policy",
+
+  "Footer.Box2.link1" : "Join Ballers",
+  "Footer.Box2.link2" : "Join as a coach",
+  "Footer.Box2.link3" : "Join as a player",
+  "Footer.Box2.link4" : "Join as a technical support",
+
+  "Footer.Box3.link1" : "Customer service",
+  "Footer.Box3.link2" : "Join us",
+  "Footer.Box3.link3" : "Contact US",
+  "Footer.Box3.link4" : "About Us",
+
+  "Footer.Box4.link1" : "Follow Us",
+
+
+  "callToAction" : "Join Us Today!",
+
+
+  "SCAN.TITLE" : "Social Scan",
+
+
+  "Zigi1" : "We're not just about hoops; we're about forging epic bridges between ballers and the Ballers Basketball Academy. It's not just training; it's a slam dunk connection that'll have you feeling like the MVP of your own basketball journey! 🏀🌉",
+  "Zigi2" : "At Ballers Basketball Academy, we're your hoops BFFs! We've got the tricks and treats to fix any basketball blues. Our platform is the cool spot for secure and awesome basketball training, no matter where you dribble. Let's ball in style! 🏀🌟",
+  "Zigi3" : "We're not just about training ; we're your go-to crew for recognizing your b-ball brilliance! With moves to conquer any court challenge, our platform is the spot for secure and sensational basketball training. Wherever you play, we see your skills shine. Let's hit the court and own it! 🏀🌟",
+  "Zigi-JoinButton" : "Join Us Now",
+  "Zigi-last1" : "Thank you for choosing the",
+  "Zigi-last2" : "Ballers Basketball Academy",
+  "Zigi-last3" : "as your partner on the journey to better hoop skills and mental agility.",
+
+
+  "FormJoin1" : "Secure Your Spot at Ballers Basketball Academy!",
+  "FormJoin2" : "Don't miss the chance to be a part of the elite basketball training at Ballers Basketball Academy. Reserve your spot now by filling out the reservation form below. Our skilled coaches are ready to elevate your game and help you reach your full potential. Act fast to guarantee your place among the future basketball stars."
+}
