@@ -38,7 +38,7 @@ nav {
 .boxNav .btn-Nav {
     border: 0;
     border-radius: 25px;
-    background-color: #D06458;
+    background-color: #DC552C;
     color: #fff;
     width: 130px;
     height: 36px;
@@ -99,7 +99,7 @@ nav.open .sidebar {
   text-decoration: none;
 }
 .lists .nav-link:hover {
-  background-color: #4070f4;
+  background-color: #DC552C;
 }
 .nav-link .icon {
   margin-right: 14px;

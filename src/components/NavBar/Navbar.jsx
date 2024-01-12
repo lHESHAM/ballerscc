@@ -43,7 +43,7 @@ function Navbar() {
                         </ul>
                     </div>
                     <div className="boxNav ">
-                        <button className='btn-Nav'>Join Us</button>
+                        <button className='btn-Nav' src='./join'>Join Us</button>
                     </div>
 
                 </div>
@@ -56,18 +56,18 @@ function Navbar() {
                 <div className="sidebar-content">
                     <ul className="lists">
                         <li className="list">
-                            <a href="#" className="nav-link">
-                                <span className="link">Self assessment</span>
+                            <a href="./" className="nav-link">
+                                <span className="link">Home</span>
                             </a>
                         </li>
                         <li className="list">
-                            <a href="#" className="nav-link">
-                                <span className="link">About Salimeen</span>
+                            <a href="./about" className="nav-link">
+                                <span className="link">About Us</span>
                             </a>
                         </li>
                         <li className="list">
-                            <a href="#" className="nav-link">
-                                <span className="link">Our team</span>
+                            <a href="./team" className="nav-link">
+                                <span className="link">Team</span>
                             </a>
                         </li>
                         <li className="list">

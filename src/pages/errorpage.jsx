@@ -1,5 +1,5 @@
 import { useRouteError } from "react-router-dom";
-import ErrorImage from '../components/images/error1.png';
+import ErrorImage from '../components/images/error2.png';
 import Navbar from "../components/NavBar/Navbar";
 import Footer from '../components/Footer/Footer'
 // import { Link } from 'react-router-dom';
