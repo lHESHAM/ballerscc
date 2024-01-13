@@ -106,12 +106,15 @@ import "./Footer.css";
                   </a>
                 </div>
                 <li>
-                  <input type="button" value="Subscribe to our newsletter" />
+                  <input type="button" value={t('subscribeButton')} />
                 </li>
                 <li>
                   <div class="link-boxes">
                     <div class="input-boxx">
-                      <input type="text" placeholder="Enter your email" />
+                      <input type="text" 
+                      placeholder={t('enterYourEmailFooter')}
+
+                      />
                     </div>
                   </div>
                 </li>

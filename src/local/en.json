@@ -33,7 +33,7 @@
   "BallersT-Desc" : "Crafting the Minds of Ballers on the Court",
   "BallersT-coach1" : "Caoch Amro Al-Wageei",
   "BallersT-coach1-desc" : "CEO & Founder",
-  "BallersT-coach2" : "Caoch Ahmad Amin",
+  "BallersT-coach2" : "Caoch Ahmad Ameen ",
   "BallersT-coach2-desc" : "CEO & Founder",
 
   "BallersT-Title1" : "Ballers technical team",
@@ -121,6 +121,8 @@
   "Footer.Box3.link4" : "About Us",
 
   "Footer.Box4.link1" : "Follow Us",
+  "enterYourEmailFooter" : "Enter your email",
+  "subscribeButton": "Subscribe to our newsletter",
 
 
   "callToAction" : "Join Us Today!",
@@ -139,5 +141,27 @@
 
 
   "FormJoin1" : "Secure Your Spot at Ballers Basketball Academy!",
-  "FormJoin2" : "Don't miss the chance to be a part of the elite basketball training at Ballers Basketball Academy. Reserve your spot now by filling out the reservation form below. Our skilled coaches are ready to elevate your game and help you reach your full potential. Act fast to guarantee your place among the future basketball stars."
+  "FormJoin2" : "Don't miss the chance to be a part of the elite basketball training at Ballers Basketball Academy. Reserve your spot now by filling out the reservation form below. Our skilled coaches are ready to elevate your game and help you reach your full potential. Act fast to guarantee your place among the future basketball stars.",
+
+
+  "email-join1" : " or email us at - ",
+  "email-join2" : "ballers@ballersaqaba.com",
+  "content1-join" : "Join",
+  "content2-join" : "Ballers",
+
+
+  "session1-join" : "Choose",
+  "session2-join" : "Regular Session",
+  "session3-join" : "Private Session ",
+
+
+  "fullNamePlaceholder" : "Full Name",
+  "phonePlaceholder" : "Phone Number",
+  "addressPlaceholder" : "Address",
+  "emailPlaceholder" : "Email",
+  "messagePlaceholder" : "Message",
+  "subjectPlaceholder" : "Subject"
+
+
+
 }

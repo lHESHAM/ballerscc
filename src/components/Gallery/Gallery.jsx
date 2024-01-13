@@ -16,9 +16,9 @@ export default function Gallery() {
     
     <div className='gallery'>
       <div className='gallery-img-box'><h3> Ala'a</h3></div>
-      <div className='gallery-img-box'><h3> Yara</h3></div>
+      <div className='gallery-img-box'><h3> Azar</h3></div>
       <div className='gallery-img-box'><h3> Jasmin</h3></div>
-      <div className='gallery-img-box'><h3> Amin</h3></div>
+      <div className='gallery-img-box'><h3> Ameen </h3></div>
     </div>
     
     

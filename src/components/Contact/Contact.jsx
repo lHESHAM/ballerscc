@@ -33,39 +33,39 @@ export default function Contact() {
                   type="text"
                   className="form-control"
                   name="name"
-                  placeholder="Full Name"
-                />
+                  placeholder={t('fullNamePlaceholder')}
+                  />
               </div>
               <div className="col-lg-6 col-12">
                 <input
                   type="email"
                   className="form-control"
                   name="email"
-                  placeholder="Email"
-                />
+                  placeholder={t('emailPlaceholder')}
+                  />
               </div>
               <div className="col-lg-6 col-12">
                 <input
                   type="text"
                   className="form-control"
-                  name="address"
-                  placeholder="Address"
-                />
+                  name="subject"
+                  placeholder={t('subjectPlaceholder')}
+                  />
               </div>
               <div className="col-lg-6 col-12">
                 <input
                   type="text"
                   className="form-control"
                   name="phone"
-                  placeholder="Phone Number"
-                />
+                  placeholder={t('phonePlaceholder')}
+                  />
               </div>
               <div className="col-lg-12 col-12">
                 <textarea
                   className="form-control"
                   rows={6}
                   name="message"
-                  placeholder="Message"
+                  placeholder={t('messagePlaceholder')}
                   defaultValue={""}
                 />
               </div>

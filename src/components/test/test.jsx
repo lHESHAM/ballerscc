@@ -1,6 +1,10 @@
 import React from 'react'
 import './test.css'
-export default function test() {
+import { useTranslation } from 'react-i18next';
+
+export default function Test() {
+    const { t } = useTranslation();
+
     return (
         <div>
             <div>
@@ -12,11 +16,11 @@ export default function test() {
                                 data-aos="fade-up"
                             >
                                 <h1 className="mb-4">
-                                    Join  <strong>Ballers </strong> Basketball Academy {" "}
+                                {t('content1-join')}  <strong>{t('content2-join')} </strong> {t('content3-join')}  {" "}
                                 </h1>
                                 <p>
-                                    or email us at{" "}
-                                    <a href="mailto:ballers@ballersaqaba.com">ballers@ballersaqaba.com</a>
+                                {t('email-join1')}
+                                    <a href="mailto:ballers@ballersaqaba.com">{t('email-join2')}</a>
                                 </p>
                             </div>
                             <div className="col-lg-8 mx-auto col-md-10 col-12">
@@ -33,7 +37,7 @@ export default function test() {
                                                 type="text"
                                                 className="form-control"
                                                 name="name"
-                                                placeholder="Full Name"
+                                                placeholder={t('fullNamePlaceholder')}
                                             />
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -41,7 +45,7 @@ export default function test() {
                                                 type="email"
                                                 className="form-control"
                                                 name="email"
-                                                placeholder="Email"
+                                                placeholder={t('emailPlaceholder')}
                                             />
                                         </div>
                                         <div className="col-lg-6 col-12">
@@ -49,16 +53,16 @@ export default function test() {
                                                 type="text"
                                                 className="form-control"
                                                 name="address"
-                                                placeholder="Address"
+                                                placeholder={t('addressPlaceholder')}
                                             />
                                         </div>
                                         <div className="col-lg-6 col-12">
-                                            <input
-                                                type="text"
-                                                className="form-control"
-                                                name="phone"
-                                                placeholder="Phone Number"
-                                            />
+                                        <input
+                                        type="text"
+                                        className="form-control"
+                                        name="phone"
+                                        placeholder={t('phonePlaceholder')}
+                                      />
                                         </div>
                                         {/* <div className="col-lg-12 col-12">
                             <textarea
@@ -71,9 +75,9 @@ export default function test() {
                         </div> */}
                                         <div className="col-lg-12 col-12">
                                             <select className="form-control" name="" id="">
-                                                <option selected>choose</option>
-                                                <option value="">regular</option>
-                                                <option value="">private  </option>
+                                                <option selected>{t('session1-join')}</option>
+                                                <option value="">{t('session2-join')}</option>
+                                                <option value="">{t('session3-join')}</option>
                                             </select>
                                         </div>
                                         <div className="col-lg-5 mx-auto col-7">
