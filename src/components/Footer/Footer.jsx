@@ -82,21 +82,21 @@ import "./Footer.css";
               <ul className="box input-box">
                 <li className="link_name"> {t('Footer.Box4.link1')}</li>
                 <div className="media-icon">
-                  <a href="https://www.facebook.com/people/Ballers-Academy/61554601033311/" target='_blank'>
+                  <a href="https://www.facebook.com/profile.php?id=61555057022902" target='_blank' rel="noopener noreferrer">
                     <img
                       src={Linkedin}
                       alt="Linkedin"
                       style={SocialFooter}
                     />
                   </a>
-                  <a href="https://www.facebook.com/people/Ballers-Academy/61554601033311/" target='_blank'>
+                  <a href="https://www.instagram.com/ballersaqaba/?igsh=ZTBhY2FoeG5tcnEw&utm_source=qr" target='_blank' rel="noopener noreferrer">
                     <img
                     src={Facebbok}
                     alt="Facebook"
                       style={SocialFooter}
                     />
                   </a>
-                  <a href="https://www.instagram.com/ballersaqaba/?igsh=ZTBhY2FoeG5tcnEw&utm_source=qr" target='_blank'>
+                  <a href="https://www.facebook.com/profile.php?id=61555057022902" target='_blank' rel="noopener noreferrer">
                     <img
                     src={Insagram}
                     alt="Instagram"

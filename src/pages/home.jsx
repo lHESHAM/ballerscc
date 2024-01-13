@@ -20,6 +20,7 @@ import Navbar from '../components/NavBar/Navbar';
 // #DC552C
 
 export default function home() {
+  
   return (
     <div>
       <Navbar />

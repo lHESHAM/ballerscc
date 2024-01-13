@@ -42,9 +42,9 @@ function Navbar() {
                             </li>
                         </ul>
                     </div>
-                    <div className="boxNav ">
-                        <button className='btn-Nav' src='./join'>Join Us</button>
-                    </div>
+                    <a href='./join' className="boxNav ">
+                        <button className='btn-Nav'>Join Us</button>
+                    </a>
 
                 </div>
             </div>

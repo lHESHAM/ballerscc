@@ -27,15 +27,15 @@ export default function Zig() {
       </div>
 
       <span className='basketball'> 🏀 </span>
-      <div className='zig1' id='zig-center'>
-        <div>
-          <p className='text-video'> {t('Zigi2')} </p>
-        </div>
+      <div className='zigcenter'>
         <div className='zigi-video'>
           <video controls loop autoPlay muted className='responsive-video2'>
             <source src={Video3} />
           </video>
         </div>
+        <div>
+        <p className='text-video'> {t('Zigi2')} </p>
+      </div>
 
       </div>
 
