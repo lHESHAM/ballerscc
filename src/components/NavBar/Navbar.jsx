@@ -1,7 +1,11 @@
 import React from 'react'
 import './Navbar.css';
 import logo from '../images/ballers_logo.png';
-import 'https://kit.fontawesome.com/b56885f075.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLanguage  } from '@fortawesome/free-solid-svg-icons';
+// import 'https://kit.fontawesome.com/b56885f075.js';
+// import { ArrowDownCircle } from 'react-ionicons'
+
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -58,7 +62,8 @@ function Navbar() {
                     </li>
                             <li class="bar-item">|</li>
                             <li className="bar-item">
-                            <label htmlFor=""><i className="fa-solid fa-earth-americas"></i></label>
+                            <label htmlFor=""><FontAwesomeIcon icon={faLanguage } />
+                            </label>
                             <select
                               className="selectNav"
                               name=""

@@ -1,6 +1,6 @@
 import React from 'react'
 // import ContactImg from '../images/ballers_logo.png'
-import ContactImg from '../images/contactus.png'
+// import ContactImg from '../images/contactus.png'
 import './Contact.css'
 import { useTranslation } from 'react-i18next';
 

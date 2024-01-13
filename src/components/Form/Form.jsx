@@ -1,5 +1,4 @@
 import React from "react";
-// import { useFormik } from "formik";
 import Location from "../images/form-location.png";
 import Msg from "../images/form-msg.png";
 
@@ -88,10 +87,6 @@ function Form() {
               </div>
 
               <button type="sumbit"> {t('FormT-privacy')} </button>
-              {/* <small>
-                By clicking the button, you are agreeing to our{" "}
-                <span className="red">Terms and Services</span>
-              </small> */}
             </form>
           </article>
         </div>

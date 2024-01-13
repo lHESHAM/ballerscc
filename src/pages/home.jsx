@@ -7,7 +7,8 @@ import Services from '../components/services/services'
 import AfterServices from '../components/AfterServices/AfterServices'
 import Scan from '../components/Scan/scan';
 import Ballers from '../components/Ballers/ballers'
-import Gallery from '../components/Gallery/Gallery';
+// import Gallery from '../components/Gallery/Gallery';
+// import Slider from '../components/Slider/slider'
 import Map from '../components/Map/map'
 import FAQ from '../components/FAQ/faq';
 import Footer from '../components/Footer/Footer'
@@ -31,7 +32,6 @@ export default function home() {
       <AfterServices />
       <Scan />
       <Ballers />
-      <Gallery />
       <FAQ />
       <Map />
       <Footer />
