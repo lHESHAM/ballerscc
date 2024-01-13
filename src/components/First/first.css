@@ -110,14 +110,14 @@
     margin-bottom: 10px;
 }
 .first-content p {
-    color: #BDE4F4;
+    color: #BDE4F4 ;
     line-height: 1.5em;
 }
 .first-content h2:first-child {
     color: rgb(255, 255, 255);
 }
-.first-content:first-child p {
-    color: rgb(255, 0, 0);
+.first-content > p {
+    color: rgb(237, 237, 237);
 }
 
 /* 0000000000000000000000000 */
