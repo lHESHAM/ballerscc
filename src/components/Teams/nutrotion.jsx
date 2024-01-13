@@ -1,5 +1,5 @@
 import React  from 'react'
-import Rania from '../images/raniaNutri.png'
+import Rania from '../images/Rania.jpg'
 import { useTranslation } from 'react-i18next';
 
 import './team.css'
