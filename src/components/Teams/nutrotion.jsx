@@ -1,6 +1,8 @@
 import React  from 'react'
 import Rania from '../images/Rania.jpg'
 import { useTranslation } from 'react-i18next';
+import { IoArrowForwardOutline } from 'react-icons/io5';
+
 
 import './team.css'
 function Nutrotion() {
@@ -25,6 +27,8 @@ function Nutrotion() {
             <img src={Rania} alt='Member' style={Member}  className='image-member'/>
             <h4> {t('BallersT-nut1')} </h4>
             <h6> ( {t('BallersT-nut1-desc')} ) </h6>
+            <a href='/Rania' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+
         </div>
       </div>
       

@@ -20,7 +20,7 @@ export default function amroS() {
           <div className="right-text">
             <p className="person">Amro Al-Wageei</p>
             <p className="role">(Founder | Coach | Technical team leader)</p>
-            <p className='role'><a href='./join'> <IoLogoFacebook  />  </a> <a href='./join'> <IoLogoInstagram   />  </a> <a href='./join'> <IoLogoLinkedin  />  </a></p>
+            <p className='role'><a href='https://www.facebook.com/profile.php?id=100012890643589'> <IoLogoFacebook  />  </a> <a href='https://www.instagram.com/shandaqamro7/'> <IoLogoInstagram   />  </a> <a href='https://www.linkedin.com/in/amro-shandaq/'> <IoLogoLinkedin  />  </a></p>
             <p> </p>
           </div>
 

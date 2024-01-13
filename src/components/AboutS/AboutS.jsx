@@ -31,10 +31,10 @@ function AboutS() {
               </strong>
             </p>
             <div className="btn_drr">
-              <Link to="./team">
+              <Link to="/team">
                 <button type="button"> {t('Ballers-Team-Button')} </button>
               </Link>
-              <Link to="./join">
+              <Link to="/join">
                 <button type="button" className="btn2">
                   {t('Ballers-Join-Button')}
                 </button>

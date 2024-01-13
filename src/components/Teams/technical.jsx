@@ -3,6 +3,7 @@ import Hussien from '../images/hussienTech.png'
 import Shahed from '../images/shahdTech.png'
 import Amro from '../images/Amro.png'
 import Laith from '../images/laithTech.png'
+import { IoArrowForwardOutline } from 'react-icons/io5';
 import { useTranslation } from 'react-i18next';
 import './team.css'
 
@@ -32,6 +33,8 @@ function Technical() {
       <img src={Amro} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech1')} </h4>
       <h6>( {t('BallersT-tech1-desc')} )</h6>
+      <a href='./Amro' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+
   </div>
   
 
@@ -40,18 +43,24 @@ function Technical() {
       <img src={Hussien} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech2')} </h4>
       <h6>( {t('BallersT-tech2-desc')} )</h6>
+      <a href='./Hussien' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+
   </div>
   <div className='member'>
   
       <img src={Shahed} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech3')} </h4>
       <h6>( {t('BallersT-tech3-desc')} )</h6>
+      <a href='./Shahd' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+
   </div>
   <div className='member'>
   
       <img src={Laith} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech4')} </h4>
       <h6>( {t('BallersT-tech4-desc')} )</h6>
+      <a href='./Laith' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+
   </div>
   
   
