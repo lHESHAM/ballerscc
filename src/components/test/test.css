@@ -682,3 +682,19 @@ a:focus {
 }
 
 
+/* -------------------- Custome Dropdown List ------------------------ */
+
+/* Add your custom styles here */
+.custom-dropdown {
+  padding: 8px;
+  border: 1px solid #F1F8FD;
+  border-radius: 4px;
+  color: #DC552C;
+  font-size: 14px;
+}
+
+/* Style for selected option */
+.custom-dropdown option:checked {
+  background-color: #DC552C; 
+  color: #F1F8FD; 
+}

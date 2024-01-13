@@ -8,6 +8,14 @@ import { useTranslation } from 'react-i18next';
 
 
 function Navbar() {
+
+    const [activeNavItem, setActiveNavItem] = useState('Home'); // Default active item
+
+    const handleNavItemClick = (itemName) => {
+        setActiveNavItem(itemName);
+        setIsOpen(false); // Close the menu when a nav item is clicked
+    };
+    
     const { t, i18n } = useTranslation();
 
     const [isOpen, setIsOpen] = useState(false);
@@ -38,9 +46,16 @@ function Navbar() {
                     </div>
                     <div className="boxNav display">
                         <ul class="navbar-bar">
-                            <li class="bar-item"><a class="bar-link" href="./"> {t('Home-Nav')}</a></li>
-                            <li class="bar-item"><a class="bar-link" href="./about">{t('About-Nav')} </a></li>
-                            <li class="bar-item"><a class="bar-link" href="./team">{t('Team-Nav')} </a></li>
+                        
+                        <li className={`bar-item ${activeNavItem === 'Home' ? 'active' : ''}`} onClick={() => handleNavItemClick('Home')}>
+                        <a className="bar-link" href="./">{t('Home-Nav')}</a>
+                    </li>
+                    <li className={`bar-item ${activeNavItem === 'About' ? 'active' : ''}`} onClick={() => handleNavItemClick('About')}>
+                        <a className="bar-link" href="./about">{t('About-Nav')}</a>
+                    </li>
+                    <li className={`bar-item ${activeNavItem === 'Team' ? 'active' : ''}`} onClick={() => handleNavItemClick('Team')}>
+                        <a className="bar-link" href="./team">{t('Team-Nav')}</a>
+                    </li>
                             <li class="bar-item">|</li>
                             <li className="bar-item">
                             <label htmlFor=""><i className="fa-solid fa-earth-americas"></i></label>
@@ -81,26 +96,35 @@ function Navbar() {
                     <ul className="lists">
                         <li className="list">
                             <a href="./" className="nav-link">
-                                <span className="link">Home</span>
+                                <span className="link">{t('Home-Nav')}</span>
                             </a>
                         </li>
                         <li className="list">
                             <a href="./about" className="nav-link">
-                                <span className="link">About Us</span>
+                                <span className="link">{t('About-Nav')}</span>
                             </a>
                         </li>
                         <li className="list">
                             <a href="./team" className="nav-link">
-                                <span className="link">Team</span>
+                                <span className="link">{t('Team-Nav')}</span>
                             </a>
                         </li>
                         <li className="list">
-                            <label htmlFor=""><i class="fa-solid fa-earth-americas"></i></label>
-                            <select className="selectNav" name="" id="">
-                                <option value="" selected>Language</option>
-                                <option value="">test</option>
-                                <option value="">test</option>
-                            </select>
+                        <label htmlFor=""><i className="fa-solid fa-earth-americas"></i></label>
+                        <select
+                          className="selectNav"
+                          name=""
+                          id=""
+                          onChange={(e) => {
+                            i18n.changeLanguage(e.target.value);
+                            toggleDirection();
+                          }}
+                          dir={isRTL ? 'rtl' : 'ltr'}
+                          defaultValue={i18n.language}
+                        >
+                          <option value="ar">{t('Lang-Nav-Arabic')}</option>
+                          <option value="en">{t('Lang-Nav-English')}</option>
+                        </select>
                         </li>
                         
                     </ul>
@@ -108,7 +132,7 @@ function Navbar() {
                         <li className="list">
                             <a href="#" className="nav-link">
                                 <i className="bx bx-cog icon" />
-                                <span className="link">Settings</span>
+                                <span className="link">{t('Nav-Responsive-Name')}</span>
                             </a>
                         </li>
                     </div>

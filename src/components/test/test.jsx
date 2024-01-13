@@ -74,7 +74,7 @@ export default function Test() {
                             />
                         </div> */}
                                         <div className="col-lg-12 col-12">
-                                            <select className="form-control" name="" id="">
+                                            <select className="form-control custom-dropdown" name="" id="">
                                                 <option selected>{t('session1-join')}</option>
                                                 <option value="">{t('session2-join')}</option>
                                                 <option value="">{t('session3-join')}</option>

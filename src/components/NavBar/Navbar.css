@@ -150,3 +150,7 @@ nav.open ~ .overlay {
     }
      
 }
+
+.bar-item.active {
+  color: red; /* Set the desired color for the active item */
+}
