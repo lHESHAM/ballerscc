@@ -55,6 +55,24 @@
   "BallersT-nut1" : "Dr. Rania Anabieh ",
   "BallersT-nut1-desc" : "Sport & Nutrition Coach",
 
+  "Amro-Name" : "Amro Al-Wageei",
+  "Amro-postion" : "Founder | Coach | Technical team leader",
+  "Amro-para1" : "At 26 years old, I bring a wealth of experience and expertise in the realm of basketball, having dedicated over 13 years to honing my skills and mastering the game. my passion for basketball has been an integral part of my journey. This deep-rooted love for the sport has not only sculpted my physical abilities but has also instilled in me valuable qualities such as teamwork, discipline, and resilience.",
+  "Amro-para2" : "Currently, I channel my enthusiasm for technology and development as an Orange Technical Trainer specializing in full-stack web development. Leveraging my extensive background in basketball, I've seamlessly transitioned into the role of a technical trainer, using my coaching skills to guide aspiring developers on their journey. The parallels between the precision and strategy required in both basketball and web development are evident in my teaching approach, where I emphasize teamwork, attention to detail, and the ability to adapt to challenges. Through this unique combination of experiences, I strive to inspire and empower the next generation of developers to reach their full potential in the dynamic world of technology.",
+
+  "Ahmad-Name" : "Ahmad Ameen",
+  "Ahmad-postion" : "Founder | Coach",
+  "Ahmad-para1" : "Captain Engineer Ahmed Yassin works as an engineer at the Aqaba Development Company He was also one of the distinguished modern players with the Aqaba Youth Club, a basketball player for 20 year, and he also has experience in training in advanced techniques.He obtained a certificate of participation in the Arab Trainers Course for the year 2023 and a certificate of participation in the FIBA Level 1 course.",
+  "Ahmad-para2" : " He combines a brilliant engineer and a world-class coach in the world of basketball. He possesses unique skills in analyzing and designing electronics with an unlimited passion for developing skills.",
+  "Ahmad-para3" : " Including strategy and understanding the basics of the game, leading to making the most of them. His profession combines engineering strengths and sporting passion, creating a unique experience between creativity and excellence in every aspect of sporting life.",
+
+
+  "Hussien-Name" : "Hussien Injas",
+  "Hussien-postion" : "Full Stack Web Developer | Mern Stack",
+  "Hussien-para1" : "Hello, I'm Hussein Injass, a passionate Full Stack Developer with a knack for crafting seamless and engaging web applications. With a solid foundation in both front-end and back-end technologies, I bring a comprehensive skill set to the table.",
+  "Hussien-para2" : " On the front-end, I specialize in creating intuitive and visually appealing user interfaces. Proficient in HTML, CSS, and JavaScript, I leverage popular frameworks like React to build dynamic and responsive applications that deliver an exceptional user experience.",
+  "Hussien-para3" : "Equally comfortable on the back-end, I navigate server-side logic and database management effortlessly. My expertise spans languages such as Node.js , Php and laravel framework ,allowing me to develop robust server-side components and integrate them seamlessly with databases using SQL or NoSQL technologies.",
+
 
   "gallery" : "  Gallery ",
   "tagline-gallery" : "“Champions Ballers , we are proud of them",
