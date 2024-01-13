@@ -23,7 +23,7 @@ export default function Shahds() {
         <div className="story-container-right">
           <div className="right-text">
             <p className="person">{t('Shahd-Name')}</p>
-            <p className="role">( {t('Shahd-حخسهفهخى')} )
+            <p className="role">( {t('Shahd-postion')} )
             </p>
             <p className='role'><a href='https://www.instagram.com/shahdadnan01/'> <IoLogoInstagram   />  </a></p>
             <p> </p>
