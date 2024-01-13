@@ -1,5 +1,5 @@
 import React from 'react'
-import ShahdS from '../../components/images/RaniaS.jpg'
+import ShahdS from '../../components/images/Shahds.jpg'
 import {IoLogoInstagram } from 'react-icons/io5';
 import './Shahd.css'
 
@@ -32,7 +32,10 @@ export default function amroS() {
 
             <p>
 
-            Shahd Adnan's commitment to design goes beyond the classroom, as she actively engages in various design projects to enhance her practical skills. Alongside her academic pursuits, she has participated in design competitions and collaborative initiatives, showcasing her passion and talent in the field. Shahd is determined to make meaningful contributions to the world of design, drawing inspiration from her Palestinian roots and the rich cultural heritage that surrounds her.        </p>
+            Shahd is a talented graphic designer with creative and innovative skills in using advanced design programs. I create distinctive logos and captivating advertisements, always striving to develop myself and deliver unique artistic works that reflect the client's identity in an innovative and attractive style. This is what distinguishes my work.       </p>
+            <p>
+
+            Shahd is commitment to design goes beyond the classroom, as she actively engages in various design projects to enhance her practical skills. Alongside her academic pursuits, she has participated in design competitions and collaborative initiatives, showcasing her passion and talent in the field. Shahd is determined to make meaningful contributions to the world of design, drawing inspiration from her Palestinian roots and the rich cultural heritage that surrounds her.        </p>
       
           </div>
         </div>
