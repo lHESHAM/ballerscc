@@ -1,13 +1,17 @@
 import React from 'react'
 import ShahdS from '../../components/images/Shahds.jpg'
 import {IoLogoInstagram } from 'react-icons/io5';
+import { useTranslation } from 'react-i18next';
+
 import './Shahd.css'
 
-export default function amroS() {
+export default function Shahds() {
+  const { t } = useTranslation();
+
   return (
     <div>
     <div className="story">
-      <h2 className="story-heading">Shahd Adnan</h2>
+      <h2 className="story-heading">{t('Shahd-Name')}</h2>
 
 
 
@@ -18,24 +22,24 @@ export default function amroS() {
 
         <div className="story-container-right">
           <div className="right-text">
-            <p className="person">Shahd Adnan</p>
-            <p className="role">( Desginer | UI / UX )
+            <p className="person">{t('Shahd-Name')}</p>
+            <p className="role">( {t('Shahd-حخسهفهخى')} )
             </p>
             <p className='role'><a href='https://www.instagram.com/shahdadnan01/'> <IoLogoInstagram   />  </a></p>
             <p> </p>
           </div>
 
           <div className="right-text-para">
-            <p>
-            Shahd Adnan, born in Palestine in 2001, is currently pursuing her university studies in design. She is dedicated to her education and is working towards her degree at a university in Palestine.
+            <p>{t('Shahd-para1')}
+            
             </p>
 
             <p>
-
-            Shahd is a talented graphic designer with creative and innovative skills in using advanced design programs. I create distinctive logos and captivating advertisements, always striving to develop myself and deliver unique artistic works that reflect the client's identity in an innovative and attractive style. This is what distinguishes my work.       </p>
+            {t('Shahd-para2')}
+                  </p>
             <p>
-
-            Shahd is commitment to design goes beyond the classroom, as she actively engages in various design projects to enhance her practical skills. Alongside her academic pursuits, she has participated in design competitions and collaborative initiatives, showcasing her passion and talent in the field. Shahd is determined to make meaningful contributions to the world of design, drawing inspiration from her Palestinian roots and the rich cultural heritage that surrounds her.        </p>
+            {t('Shahd-para3')}
+                   </p>
       
           </div>
         </div>
