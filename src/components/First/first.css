@@ -113,6 +113,12 @@
     color: #BDE4F4;
     line-height: 1.5em;
 }
+.first-content h2:first-child {
+    color: rgb(255, 255, 255);
+}
+.first-content:first-child p {
+    color: rgb(255, 0, 0);
+}
 
 /* 0000000000000000000000000 */
 

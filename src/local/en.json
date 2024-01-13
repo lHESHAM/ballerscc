@@ -6,7 +6,9 @@
     "Team-Nav" : "Team",
     "Join-Nav" : "Join Us",
     "Login-Nav" : "Login",
-    "Lang-Nav" : "Languages",
+    "Lang-Nav" : "Languages",    
+    "Lang-Nav-Arabic" : "Arabic ",
+    "Lang-Nav-English" : "English",
 
 
     "FreeSessionFixed" : " Get first session for free! ",

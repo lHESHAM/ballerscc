@@ -3,9 +3,19 @@ import './Navbar.css';
 import logo from '../images/ballers_logo.png';
 import 'https://kit.fontawesome.com/b56885f075.js';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+
+
 
 function Navbar() {
+    const { t, i18n } = useTranslation();
+
     const [isOpen, setIsOpen] = useState(false);
+    const [isRTL, setIsRTL] = useState(false);
+
+    const toggleDirection = () => {
+        setIsRTL(!isRTL);
+      };
 
     const handleMenuClick = () => {
         setIsOpen(!isOpen);
@@ -28,22 +38,36 @@ function Navbar() {
                     </div>
                     <div className="boxNav display">
                         <ul class="navbar-bar">
-                            <li class="bar-item"><a class="bar-link" href="./">Home</a></li>
-                            <li class="bar-item"><a class="bar-link" href="./about">About Us </a></li>
-                            <li class="bar-item"><a class="bar-link" href="./team">Team </a></li>
+                            <li class="bar-item"><a class="bar-link" href="./"> {t('Home-Nav')}</a></li>
+                            <li class="bar-item"><a class="bar-link" href="./about">{t('About-Nav')} </a></li>
+                            <li class="bar-item"><a class="bar-link" href="./team">{t('Team-Nav')} </a></li>
                             <li class="bar-item">|</li>
-                            <li class="bar-item">
-                                <label htmlFor=""><i class="fa-solid fa-earth-americas"></i></label>
-                                <select className="selectNav" name="" id="">
-                                    <option value="" selected>Language</option>
-                                    <option value="">Arabic</option>
-                                    <option value="">English</option>
-                                </select>
-                            </li>
+                            <li className="bar-item">
+                            <label htmlFor=""><i className="fa-solid fa-earth-americas"></i></label>
+                            <select
+                              className="selectNav"
+                              name=""
+                              id=""
+                              onChange={(e) => {
+                                i18n.changeLanguage(e.target.value);
+                                toggleDirection();
+                              }}
+                              dir={isRTL ? 'rtl' : 'ltr'}
+                              defaultValue={i18n.language}
+                            >
+                              <option value="ar">{t('Lang-Nav-Arabic')}</option>
+                              <option value="en">{t('Lang-Nav-English')}</option>
+                            </select>
+                          </li>
+                          
+                          
+                        
+                        
+                        
                         </ul>
                     </div>
                     <a href='./join' className="boxNav ">
-                        <button className='btn-Nav'>Join Us</button>
+                        <button className='btn-Nav'>{t('Join-Nav')}</button>
                     </a>
 
                 </div>
