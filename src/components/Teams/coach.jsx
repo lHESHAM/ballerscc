@@ -32,7 +32,7 @@ import './team.css'
         <img src={Amro} alt='Member' style={Member}  className='image-member'/>
         <h4>  {t('BallersT-coach1')}  </h4>
         <h6> (  {t('BallersT-coach1-desc')}  ) </h6>
-        <a href='./Amro' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+        <a href='./Amro' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> {t('BallersT-team-more')} <IoArrowForwardOutline /> </a>
     </div>
 
     <div className='member'>
@@ -40,7 +40,7 @@ import './team.css'
         <img src={Ahmad} alt='Member' style={Member}  className='image-member'/>
         <h4> {t('BallersT-coach2')} </h4>
         <h6> ( {t('BallersT-coach2-desc')} ) </h6>
-        <a href='./Ahmad' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+        <a href='./Ahmad' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> {t('BallersT-team-more')}        <IoArrowForwardOutline /> </a>
 
     </div>
 

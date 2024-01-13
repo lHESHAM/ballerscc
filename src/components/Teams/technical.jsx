@@ -33,7 +33,7 @@ function Technical() {
       <img src={Amro} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech1')} </h4>
       <h6>( {t('BallersT-tech1-desc')} )</h6>
-      <a href='./Amro' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+      <a href='./Amro' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> {t('BallersT-team-more')}        <IoArrowForwardOutline /> </a>
 
   </div>
   
@@ -43,7 +43,7 @@ function Technical() {
       <img src={Hussien} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech2')} </h4>
       <h6>( {t('BallersT-tech2-desc')} )</h6>
-      <a href='./Hussien' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+      <a href='./Hussien' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> {t('BallersT-team-more')}       <IoArrowForwardOutline /> </a>
 
   </div>
   <div className='member'>
@@ -51,7 +51,7 @@ function Technical() {
       <img src={Shahed} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech3')} </h4>
       <h6>( {t('BallersT-tech3-desc')} )</h6>
-      <a href='./Shahd' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+      <a href='./Shahd' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> {t('BallersT-team-more')}       <IoArrowForwardOutline /> </a>
 
   </div>
   <div className='member'>
@@ -59,7 +59,7 @@ function Technical() {
       <img src={Laith} alt='Member' style={Member}  className='image-member'/>
       <h4> {t('BallersT-tech4')} </h4>
       <h6>( {t('BallersT-tech4-desc')} )</h6>
-      <a href='./Laith' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+      <a href='./Laith' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> {t('BallersT-team-more')}       <IoArrowForwardOutline /> </a>
 
   </div>
   

@@ -27,7 +27,7 @@ function Nutrotion() {
             <img src={Rania} alt='Member' style={Member}  className='image-member'/>
             <h4> {t('BallersT-nut1')} </h4>
             <h6> ( {t('BallersT-nut1-desc')} ) </h6>
-            <a href='/Rania' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> Read More       <IoArrowForwardOutline /> </a>
+            <a href='/Rania' style={{borderBottom : "1px dotted red" , fontSize : "14px"}}> {t('BallersT-team-more')}        <IoArrowForwardOutline /> </a>
 
         </div>
       </div>
