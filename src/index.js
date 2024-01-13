@@ -24,6 +24,7 @@ import Ahmad from './personal/Ahmad/ahmad';
 import Hussien from './personal/Hussien/hussien'
 import Laith from './personal/Laith/LaithS'
 import Rania from './personal/Rania/RaniaS'
+import Shahd from './personal/Shahd/ShahdS'
 import './App.css'
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "/Rania",
     element: <Rania />,
+  },
+  {
+    path: "/Shahd",
+    element: <Shahd />,
   },
   {
     path: "/about",

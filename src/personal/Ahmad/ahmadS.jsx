@@ -27,7 +27,7 @@ export default function amroS() {
           <div className="right-text-para">
             <p>
             Captain Engineer Ahmed Yassin works as an engineer at the Aqaba Development Company
-            He was also one of the distinguished modern players with the Aqaba Youth Club, a football player for nearly a year, and he also has experience in training in advanced techniques.
+            He was also one of the distinguished modern players with the Aqaba Youth Club, a basketball player for nearly a year, and he also has experience in training in advanced techniques.
             He obtained a certificate of participation in the Arab Trainers Course for the year 2023 and a certificate of participation in the FIBA Level 1 course.
             </p>
 
@@ -35,7 +35,7 @@ export default function amroS() {
             He combines a brilliant engineer and a world-class coach in the world of basketball. He possesses unique skills in analyzing and designing electronics with an unlimited passion for developing skills.
             </p>
             <p>
-            Including strategy and understanding the basics of the game, leading to making the most of them. My profession combines engineering strengths and sporting passion, creating a unique experience between creativity and excellence in every aspect of sporting life.
+            Including strategy and understanding the basics of the game, leading to making the most of them. His profession combines engineering strengths and sporting passion, creating a unique experience between creativity and excellence in every aspect of sporting life.
             </p>
           </div>
         </div>
