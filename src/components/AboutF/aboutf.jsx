@@ -1,16 +1,30 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import VideoJoin from '../video/BALLERS.mp4'
 import { useTranslation } from 'react-i18next';
 
 import './aboutf.css'
 export default function Aboutf() {
+  useEffect(() => {
+    const videoF = document.getElementById("responsive-video-a");
+
+    if (videoF) {
+      videoF.autoplay = true;
+      videoF.loop = true;
+      videoF.muted = true;
+      videoF.controls = false;
+
+      videoF.addEventListener("loadeddata", function () {
+        videoF.play();
+      });
+    }
+  }, []);
   const { t } = useTranslation();
 
   return (
     <div>
 
     <div className='container-aboutf1'>
-      <video className='responsive-video-a' controls loop autoPlay muted>
+      <video className='responsive-video-a' id='responsive-video-a' controls loop autoPlay muted>
         <source src={VideoJoin} type='video/mp4' />
       </video>
       <a href="./join" className="ctaa-about animated-button">{t('Zigi-JoinButton')}</a>

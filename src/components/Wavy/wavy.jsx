@@ -1,8 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Wvideo from '../video/amro.mp4'
 import './wavy.css'
 
 export default function wavy() {
+  
   return (
 
 

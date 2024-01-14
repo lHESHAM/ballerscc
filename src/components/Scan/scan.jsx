@@ -22,7 +22,8 @@ function Scan() {
             backgroundPosition: 'center',
             borderRadius: '10%',
             border: "5px solid #587693" ,
-            padding : "10px"
+            padding : "10px",
+            margin : "15px"
 
             }}
         />
@@ -35,7 +36,8 @@ function Scan() {
             backgroundPosition: 'center',
             borderRadius: '10%',
             border: "5px solid #6E467C" ,
-            padding : "10px" 
+            padding : "10px" ,
+            margin : "15px"
             }}
         />
             <img
@@ -47,7 +49,8 @@ function Scan() {
             backgroundPosition: 'center',
             borderRadius: '10%',
             border: "5px solid #3E7E6A" ,
-            padding : "10px" 
+            padding : "10px" ,
+            margin : "15px"
             }}
         />
 

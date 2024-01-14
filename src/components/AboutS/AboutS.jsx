@@ -23,7 +23,6 @@ function AboutS() {
               </strong>
               {t('Ballers-desc2-About')} <br /><br/>
               <p>{t('Ballers-desc4-About')}</p>
-              {t('Ballers-desc2-About')} <br /><br/>
               <p>{t('Ballers-desc5-About')}</p>
               <strong>
                 <br />

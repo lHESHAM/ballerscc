@@ -32,6 +32,8 @@ export default function Amros() {
             <p>{t('Amro-para1')}</p>
 
             <p>{t('Amro-para2')}</p>
+            <p>{t('Amro-para3')}</p>
+            <p>{t('Amro-para4')}</p>
           </div>
         </div>
       </div>
