@@ -4,6 +4,10 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import TranslationEn from './local/en.json';
 import TranslationAr from './local/ar.json';
 
+const savedLanguage = localStorage.getItem('language');
+const defaultLanguage = savedLanguage || 'ar';
+
+
 const resources = {
   en: {
     translation: TranslationEn
@@ -18,7 +22,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "ar",
+    lng: defaultLanguage,
     interpolation: {
       escapeValue: false
     },

@@ -32,7 +32,7 @@ const ScrollToTopButton = () => {
     <div className={`scroll-to-top ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
     <ArrowUpOutline
     color={'#ddd'}  
-    height="25px"
+    height="45px"
     width="25px"
   />
   

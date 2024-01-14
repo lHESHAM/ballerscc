@@ -9,9 +9,13 @@ import { faLanguage  } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+const savedLanguage = localStorage.getItem('language') || 'ar';
 
 
 function Navbar() {
+
+
+      
 
     const [activeNavItem, setActiveNavItem] = useState('Home'); // Default active item
 
@@ -36,6 +40,8 @@ function Navbar() {
     const handleOverlayClick = () => {
         setIsOpen(false);
     };
+
+    
     return (
 
         <nav className={` ${isOpen ? 'open' : ''}`}>
@@ -69,8 +75,10 @@ function Navbar() {
                               name=""
                               id=""
                               onChange={(e) => {
-                                i18n.changeLanguage(e.target.value);
+                                const selectedLanguage = e.target.value;
+                                i18n.changeLanguage(selectedLanguage);
                                 toggleDirection();
+                                localStorage.setItem('language', selectedLanguage);
                               }}
                               dir={isRTL ? 'rtl' : 'ltr'}
                               defaultValue={i18n.language}
