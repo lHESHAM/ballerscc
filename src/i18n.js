@@ -30,5 +30,9 @@ i18n
       useSuspense: false,
     }
   });
-
+  const toggleDirection = () => {
+    const isRTL = i18n.dir() === 'rtl';
+    document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
+  };
+  
 export default i18n;

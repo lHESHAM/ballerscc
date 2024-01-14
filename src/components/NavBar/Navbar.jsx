@@ -17,21 +17,18 @@ function Navbar() {
 
       
 
-    const [activeNavItem, setActiveNavItem] = useState('Home'); // Default active item
+    const [activeNavItem, setActiveNavItem] = useState('Home'); 
 
     const handleNavItemClick = (itemName) => {
         setActiveNavItem(itemName);
-        setIsOpen(false); // Close the menu when a nav item is clicked
+        setIsOpen(false); 
     };
     
     const { t, i18n } = useTranslation();
 
     const [isOpen, setIsOpen] = useState(false);
-    const [isRTL, setIsRTL] = useState(false);
 
-    const toggleDirection = () => {
-        setIsRTL(!isRTL);
-      };
+
 
     const handleMenuClick = () => {
         setIsOpen(!isOpen);
@@ -40,8 +37,12 @@ function Navbar() {
     const handleOverlayClick = () => {
         setIsOpen(false);
     };
-
-    
+    const toggleDirection = () => {
+        const isRTL = i18n.dir() === 'rtl';
+        document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
+      };
+      
+      toggleDirection();
     return (
 
         <nav className={` ${isOpen ? 'open' : ''}`}>
@@ -54,6 +55,7 @@ function Navbar() {
                         <a href='./'>                         <img src={logo} alt="Ballers Logo" />
                         </a>
                     </div>
+
                     <div className="boxNav display">
                         <ul class="navbar-bar">
                         
@@ -71,21 +73,22 @@ function Navbar() {
                             <label htmlFor=""><FontAwesomeIcon icon={faLanguage } />
                             </label>
                             <select
-                              className="selectNav"
-                              name=""
-                              id=""
-                              onChange={(e) => {
+                                className="selectNav"
+                                name=""
+                                id=""
+                                onChange={(e) => {
                                 const selectedLanguage = e.target.value;
                                 i18n.changeLanguage(selectedLanguage);
                                 toggleDirection();
                                 localStorage.setItem('language', selectedLanguage);
-                              }}
-                              dir={isRTL ? 'rtl' : 'ltr'}
-                              defaultValue={i18n.language}
-                            >
-                              <option value="ar">{t('Lang-Nav-Arabic')}</option>
-                              <option value="en">{t('Lang-Nav-English')}</option>
-                            </select>
+                                }}
+                                dir={i18n.dir()} 
+                                defaultValue={i18n.language}
+                          >
+                            <option value="ar">{t('Lang-Nav-Arabic')}</option>
+                            <option value="en">{t('Lang-Nav-English')}</option>
+                          </select>
+                          
                           </li>
                           
                           
@@ -94,6 +97,7 @@ function Navbar() {
                         
                         </ul>
                     </div>
+                    
                     <a href='./join' className="boxNav ">
                         <button className='btn-Nav'>{t('Join-Nav')}</button>
                     </a>
@@ -132,8 +136,7 @@ function Navbar() {
                             i18n.changeLanguage(e.target.value);
                             toggleDirection();
                           }}
-                          dir={isRTL ? 'rtl' : 'ltr'}
-                          defaultValue={i18n.language}
+ 
                         >
                           <option value="ar">{t('Lang-Nav-Arabic')}</option>
                           <option value="en">{t('Lang-Nav-English')}</option>
@@ -143,7 +146,7 @@ function Navbar() {
                     </ul>
                     <div className="bottom-cotent">
                         <li className="list">
-                            <a href="#" className="nav-link">
+                            <a href="./" className="nav-link">
                                 <i className="bx bx-cog icon" />
                                 <span className="link">{t('Nav-Responsive-Name')}</span>
                             </a>
