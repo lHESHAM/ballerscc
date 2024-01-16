@@ -64,15 +64,6 @@ export default function Test() {
                                         placeholder={t('phonePlaceholder')}
                                       />
                                         </div>
-                                        {/* <div className="col-lg-12 col-12">
-                            <textarea
-                            className="form-control"
-                            rows={6}
-                            name="message"
-                            placeholder="Message"
-                            defaultValue={""}
-                            />
-                        </div> */}
                                         <div className="col-lg-12 col-12">
                                             <select className="form-control custom-dropdown" name="" id="">
                                                 <option selected>{t('session1-join')}</option>
