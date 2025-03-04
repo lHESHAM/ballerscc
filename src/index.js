@@ -25,6 +25,8 @@ import Hussien from './personal/Hussien/hussien'
 import Laith from './personal/Laith/LaithS'
 import Rania from './personal/Rania/RaniaS'
 import Shahd from './personal/Shahd/ShahdS'
+import Login from './pages/Login';
+import Profile from './pages/Profile';
 import './App.css'
 const router = createBrowserRouter([
   {
@@ -67,6 +69,14 @@ const router = createBrowserRouter([
   {
     path: "/join",
     element: <JoinUs />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/profile",
+    element: <Profile />,
   },
 ]);
 

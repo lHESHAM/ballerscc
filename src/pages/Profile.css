@@ -1,0 +1,57 @@
+.profile-section {
+    padding: 100px 0;
+    min-height: calc(100vh - 200px);
+    background-color: #f8f9fa;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #404969;
+}
+
+.profile-header h2 {
+    color: #404969;
+    margin-bottom: 10px;
+}
+
+.arabic-name {
+    color: #DC552C;
+    font-size: 1.2em;
+}
+
+.profile-details {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.details-list {
+    list-style: none;
+    padding: 0;
+}
+
+.details-list li {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.details-list span {
+    font-weight: bold;
+    color: #404969;
+    margin-right: 10px;
+}
+
+.logout-btn {
+    margin-top: 30px;
+    width: 200px;
+}

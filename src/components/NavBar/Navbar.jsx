@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../images/ballers_logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,9 +14,7 @@ const savedLanguage = localStorage.getItem('language') || 'ar';
 
 
 function Navbar() {
-
-
-      
+    const isAuthenticated = Boolean(localStorage.getItem('token'));
 
     const [activeNavItem, setActiveNavItem] = useState('Home'); 
 
@@ -90,6 +89,13 @@ function Navbar() {
                           </select>
                           
                           </li>
+                          <li class="bar-item">
+                                {isAuthenticated ? (
+                                    <Link to="/profile" className="btn-Nav">{t('Profile')}</Link>
+                                ) : (
+                                    <Link to="/login" className="btn-Nav">{t('Login-Nav')}</Link>
+                                )}
+                            </li>
                           
                           
                         
@@ -97,7 +103,14 @@ function Navbar() {
                         
                         </ul>
                     </div>
-                    
+                    <a  className="boxNav ">
+                            {isAuthenticated ? (
+                                <Link to="/profile" className="nav-link">{t('Profile')}</Link>
+                            ) : (
+                                <Link to="/login" className="nav-link">{t('Login-Nav')}</Link>
+                            )}
+                            </a>
+                       
                     <a href='./join' className="boxNav ">
                         <button className='btn-Nav'>{t('Join-Nav')}</button>
                     </a>
@@ -142,6 +155,8 @@ function Navbar() {
                           <option value="en">{t('Lang-Nav-English')}</option>
                         </select>
                         </li>
+                        
+                        
                         
                     </ul>
                     <div className="bottom-cotent">
